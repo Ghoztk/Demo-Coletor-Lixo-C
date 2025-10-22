@@ -1,0 +1,3 @@
+D:\Cmake\bin\cmake.exe -E rm -f CMakeFiles\realloc_test.dir/objects.a
+D:\Mingw\bin\ar.exe qc CMakeFiles\realloc_test.dir/objects.a @CMakeFiles\realloc_test.dir\objects1.rsp
+D:\Mingw\bin\gcc.exe -O2 -g -DNDEBUG -Wl,--whole-archive CMakeFiles\realloc_test.dir/objects.a -Wl,--no-whole-archive -o realloc_test.exe -Wl,--out-implib,librealloc_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\realloc_test.dir\linkLibs.rsp

@@ -1,0 +1,3 @@
+D:\Cmake\bin\cmake.exe -E rm -f CMakeFiles\middletest.dir/objects.a
+D:\Mingw\bin\ar.exe qc CMakeFiles\middletest.dir/objects.a @CMakeFiles\middletest.dir\objects1.rsp
+D:\Mingw\bin\gcc.exe -O2 -g -DNDEBUG -Wl,--whole-archive CMakeFiles\middletest.dir/objects.a -Wl,--no-whole-archive -o middletest.exe -Wl,--out-implib,libmiddletest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\middletest.dir\linkLibs.rsp

@@ -1,0 +1,3 @@
+D:\Cmake\bin\cmake.exe -E rm -f CMakeFiles\threadleaktest.dir/objects.a
+D:\Mingw\bin\ar.exe qc CMakeFiles\threadleaktest.dir/objects.a @CMakeFiles\threadleaktest.dir\objects1.rsp
+D:\Mingw\bin\gcc.exe -O2 -g -DNDEBUG -Wl,--whole-archive CMakeFiles\threadleaktest.dir/objects.a -Wl,--no-whole-archive -o threadleaktest.exe -Wl,--out-implib,libthreadleaktest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\threadleaktest.dir\linkLibs.rsp

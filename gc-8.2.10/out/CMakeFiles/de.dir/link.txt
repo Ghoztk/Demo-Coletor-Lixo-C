@@ -1,0 +1,3 @@
+D:\Cmake\bin\cmake.exe -E rm -f CMakeFiles\de.dir/objects.a
+D:\Mingw\bin\ar.exe qc CMakeFiles\de.dir/objects.a @CMakeFiles\de.dir\objects1.rsp
+D:\Mingw\bin\gcc.exe -O2 -g -DNDEBUG -mwindows -Wl,--whole-archive CMakeFiles\de.dir/objects.a -Wl,--no-whole-archive -o de.exe -Wl,--out-implib,libde.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\de.dir\linkLibs.rsp

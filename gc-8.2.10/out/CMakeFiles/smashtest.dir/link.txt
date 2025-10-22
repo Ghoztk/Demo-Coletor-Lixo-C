@@ -1,0 +1,3 @@
+D:\Cmake\bin\cmake.exe -E rm -f CMakeFiles\smashtest.dir/objects.a
+D:\Mingw\bin\ar.exe qc CMakeFiles\smashtest.dir/objects.a @CMakeFiles\smashtest.dir\objects1.rsp
+D:\Mingw\bin\gcc.exe -O2 -g -DNDEBUG -Wl,--whole-archive CMakeFiles\smashtest.dir/objects.a -Wl,--no-whole-archive -o smashtest.exe -Wl,--out-implib,libsmashtest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\smashtest.dir\linkLibs.rsp

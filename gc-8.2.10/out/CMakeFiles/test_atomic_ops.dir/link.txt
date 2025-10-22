@@ -1,0 +1,3 @@
+D:\Cmake\bin\cmake.exe -E rm -f CMakeFiles\test_atomic_ops.dir/objects.a
+D:\Mingw\bin\ar.exe qc CMakeFiles\test_atomic_ops.dir/objects.a @CMakeFiles\test_atomic_ops.dir\objects1.rsp
+D:\Mingw\bin\gcc.exe -O2 -g -DNDEBUG -Wl,--whole-archive CMakeFiles\test_atomic_ops.dir/objects.a -Wl,--no-whole-archive -o test_atomic_ops.exe -Wl,--out-implib,libtest_atomic_ops.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_atomic_ops.dir\linkLibs.rsp

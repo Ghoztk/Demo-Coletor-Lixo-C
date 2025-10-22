@@ -1,0 +1,3 @@
+D:\Cmake\bin\cmake.exe -E rm -f CMakeFiles\gc.dir/objects.a
+D:\Mingw\bin\ar.exe qc CMakeFiles\gc.dir/objects.a @CMakeFiles\gc.dir\objects1.rsp
+D:\Mingw\bin\gcc.exe -O2 -g -DNDEBUG -Wl,--no-undefined -shared -o libgc.dll -Wl,--out-implib,libgc.dll.a -Wl,--major-image-version,1,--minor-image-version,5 -Wl,--whole-archive CMakeFiles\gc.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\gc.dir\linkLibs.rsp
